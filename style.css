@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    filter: blur(15px);
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(./Alice.2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+
+#navcol h4 {
+    color: red;
+    font-size: 27px;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+#navcol1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+#navcol1 h4 {
+    font-size: 20px;
+    color: #fff;
+}
+
+#back {
+    border-radius: 20px;
+    padding: 7px 15px;
+    background-color: rgb(138, 137, 137);
+}
+
+#navcol2 {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+#navcol2 h4 {
+    color: #fff;
+    margin-right: 20px;
+}
+
+#navcol2 i {
+    color: #fff;
+    font-size: 15px;
+}
+
+#center {
+    display: flex;
+    gap: 40px;
+    height: 387px;
+    width: 950px;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#center1 {
+    background-image: url(./Alice3.png);
+    height: 387px;
+    width: 258px;
+}
+
+#text h5 {
+    color: #fff;
+    font-size: 30px;
+}
+
+#text h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: lightgray;
+}
+
+#text p {
+    margin-top: 13px;
+    color: #fff;
+}
+
+#same {
+    margin-top: 10px;
+    display: flex;
+    gap: 25px;
+}
+
+#same i {
+    margin-top: 15px;
+    font-size: 30px;
+    color: yellow;
+}
+
+#same p {
+    font-size: 30px;
+    color: #fff;
+}
+
+#same h4 {
+    margin-top: 15px;
+    color: black;
+    padding: 2px 7px;
+    background-color: yellow;
+    font-size: 23px;
+}
+
+#PA {
+    margin-top: 50px;
+    font-size: 10px;
+    line-height: 1;
+}
+
+button {
+    margin-top: 60px;
+    padding: 10px 90px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(78, 77, 77);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+#Q{
+    margin-left: 15px;
+    background-color: red;
+}
+#last{
+    margin-top: 450px;
+    margin-left: 209px;
+    height: 120px;
+    width: 70%;
+}
+#last h4{
+    color: #fff;
+
+}
+#different{
+    display: flex;
+    justify-content: space-between;
+}
+.common{
+    overflow: hidden;
+    margin-top: 10px;
+    height: 90px;
+    width: 160px;
+    background-color: #fff;   
+    border-radius: 10px;
+}
+.common img{
+    height: 90px;
+    width: 160px;
+    object-fit: cover;
+    background-position: center;
+
+}
+
+#middle{
+    height: 100%;
+    width: 100%;
+}
+#nav1{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+#nav1 a{
+    margin-left: 70px;
+    color: #fff;
+    text-decoration: none;
+}
+#nav1 #alag{
+    margin-left: 120px;
+}
+#nav1 i{
+    margin-left: 10px;
+    color: red;
+}
+#thoda{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(70, 70, 70);  
+}
+#thoda1{
+    margin-left: 80px;
+}
+#thoda1 input{
+    border-radius: 5px;
+    background-color: gray;
+    border: none;
+    padding: 10px 50px;
+    margin-top: 5px;
+}
+#thoda1 h4{
+    color: #fff;
+}
+#thoda1 select{
+    background-color: gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 8px 25px;
+}
+#thoda1 #bus{
+    position: relative;
+    right: 40%;
+    margin-bottom: 35px;
+    padding: 8px 50px;
+    border-radius: 5px;
+    background-color: red;
+}
+#cut{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - (80px + 100px));
+    width: 100%;
+    background-color: black;
+}
+#cut h4{
+    margin-top: 30px;
+    font-size: 30px;
+    top: 10%;
+    color: #fff;
+    margin-left: 100px;
+}
+#row{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+}
+#row i{
+    color: gray;
+    font-size: 60px;
+    margin-top: 130px;
+
+}
+.row1{
+    height: 80px;
+    margin-top: 20px;
+    width: 180px;
+}
+.row1 img{
+    overflow: hidden;
+    width: 180px;
+}
+.row1 p{
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 400;
+}
+.row1 a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+.row1 #Z{
+    font-size: 17px;
+}
+#end{
+    height: 130%;
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+}
+#end1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+.out{
+    height: 250px;
+    width: 180px;
+    background-color: #fff;
+}
+.out img{
+    overflow: hidden;
+    height: 250px;
+    width: 180px;
+}
+.out p{
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+}
+.out a{
+    text-decoration: none;
+    color: #fff;
+}
+#end2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+    width: 100%;
+}
+.out1{
+    margin-top: 10px;
+    height: 250px;
+    width: 180px;
+    background-color: #fff;
+}
+.out1 img{
+    overflow: hidden;
+    height: 250px;
+    width: 180px;
+}
+.out1 p{
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+}
+.out1 a{
+    text-decoration: none;
+    color: #fff;
+}
+#circle{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 317%;
+    height: 50px;
+    width: 350px;
+}
+.circle1{
+    color: #fff;
+    padding: 8px 10px;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+}
+.select{
+    background-color: red;
+}
+p{
+    color: #fff;
+    margin-top: 20px;
+}
+#box{
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 3px;
+    height: 35px;
+    padding: 5px 10px;
+    width: 80px;
+    border: 2px solid gray;
+}
+
